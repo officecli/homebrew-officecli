@@ -6,10 +6,10 @@ class OfficeCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/officecli/officecli-dist/releases/download/v0.2.1/officecli_0.2.1_darwin_arm64.tar.gz"
-      sha256 "36109e9408703097b7dfd4ff10c24ede0c462df5b56caad1b34f6ef3701a76de"
+      sha256 "355bd2de1db36be1498e018f19b3eba03e39d9067c3f4500b239bc597d5713fc"
     else
       url "https://github.com/officecli/officecli-dist/releases/download/v0.2.1/officecli_0.2.1_darwin_amd64.tar.gz"
-      sha256 "cb8ee285cdafd447bd5673e394d6d47b69e1873022570890bb92adabc7927cd7"
+      sha256 "cc4d3ca57d23d3899a6c804c779aef704f60c249d94ff1b6caf5efcfc3296e81"
     end
   end
 
