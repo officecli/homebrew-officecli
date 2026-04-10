@@ -1,4 +1,4 @@
-class OfficeCli < Formula
+class Officecli < Formula
   desc "Closed-source Office document generation CLI"
   homepage "https://github.com/officecli/officecli-dist"
   version "0.2.2"
