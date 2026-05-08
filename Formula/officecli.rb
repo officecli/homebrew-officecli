@@ -1,15 +1,15 @@
 class Officecli < Formula
   desc "Closed-source Office document generation CLI"
   homepage "https://github.com/officecli/officecli-dist"
-  version "0.2.37"
+  version "0.2.38"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/officecli/officecli-dist/releases/download/v0.2.37/officecli_0.2.37_darwin_arm64.tar.gz"
-      sha256 "d24f7a6ed1e22b835bc947a8a312b1f15343f422dd53c2b652beb19232003224"
+      url "https://github.com/officecli/officecli-dist/releases/download/v0.2.38/officecli_0.2.38_darwin_arm64.tar.gz"
+      sha256 "914010003398ad5b8471bd2ba8a8bd7638412342c040f3badb2a74d3ea949d21"
     else
-      url "https://github.com/officecli/officecli-dist/releases/download/v0.2.37/officecli_0.2.37_darwin_amd64.tar.gz"
-      sha256 "89a699e60f305157153b8098a3e983ae2d4df377b8650bdaaafc2eb3362e653a"
+      url "https://github.com/officecli/officecli-dist/releases/download/v0.2.38/officecli_0.2.38_darwin_amd64.tar.gz"
+      sha256 "4ffda925fe9851eaf4e10de7eb161f7038e69637b786e9ee74c6b5dc86258283"
     end
   end
 
